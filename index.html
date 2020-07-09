@@ -1,32 +1,73 @@
 <!DOCTYPE html>
-<html >
-  <head>
+<html>
 
-    <title>Constelations 16QAM</title>
+<head>
 
-    <style>
-      .container {
-                display: flex;
-                flex-wrap: wrap;
-            }
-      .container > div {
-                        background-color: springgreen;
-                        font-size: 20px;
-                        margin: 20px;
-                        padding: 20px;
-                        width: 200px;
-                      }
-    </style>
+  <title>Constelations 16QAM</title>
 
-  </head>
-  <body>
-    <h1>Constelations for Quadrature Amplitud Modulation (16 Symbols)</h1>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <style>
+    .row>div {
+      padding: 20px;
+      margin: 20px;
+      background-color: withe;
+      border: 2px solid rgb(199, 226, 224);
+    }
 
-    <div class="container">
-      <div>
-        <h3>In this page you can view the code for make your constelations in MATLAB </h3>
-      </div>
+    .titulo {
+      color: rgb(197, 87, 207);
+      margin: 20px;
+    }
+
+    .parrafo {
+      text-align:justify;
+      color: black;
+      margin: 20px;
+    }
+    .imagenes{
+      background-color: gray;
+      color: black;
+      margin: 10px;
+
+    }
+  
+  </style>
+
+</head>
+
+<body>
+
+
+
+  <div class="container">
+    <div class=titulo>
+      <h3>Constelations for Quadrature Amplitud Modulation (16 Symbols)</h3>
     </div>
 
-  </body>
+    <div class="row">
+
+      <div class="col-6">
+        <div class="parrafo">
+          <h5>
+            16-QAM (Quadrature Amplitud Modulation en español; modulación de amplitud en cuadratura ) 
+            es una técnica de modulación que permite enviar 16 símbolos distintos 
+            los cuales van a ser modulados tanto en amplitud como en fase. Esto se logra a 
+            partir de dos señales que se encuentran desfasadas 90 grados.
+
+          </h5>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="imagenes">
+          <img src="signalMod.jpg" width="100%">
+        </div>
+        
+      </div>
+    </div>
+    
+  </div>
+
+</body>
+
 </html>
